@@ -2,78 +2,66 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <title>BAR BAR名</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BAR 鎌田 メニュー</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- フォント -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>BAR BAR名</h1>
-    <p class="subtitle">Cocktails & Spirits</p>
-  </header>
+<header>
+  <h1>BAR BAR名</h1>
+  <p class="subtitle">Cocktails & Spirits</p>
+</header>
 
-<section class="category">
-    <h2>Charge</h2>
-    <div class="item">
-      <span class="name">Japanese</span>
-      <span class="price">¥500</span>
-    </div>
+<!-- ====================
+     Charge
+==================== -->
+<section class="card">
+  <h2 class="card-title">Charge</h2>
+  <div class="divider"></div>
 
-    <div class="item">
-      <span class="name">Chinese</span>
-      <span class="price">¥800</span>
-    </div>
-  </section>
+  <div class="row">
+    <span class="label">Japanese</span>
+    <span class="price">¥500</span>
+  </div>
 
-  <!-- ジン -->
-  <section class="category">
-    <h2>ジン</h2>
-    <div class="item">
-      <span class="name">ジントニック</span>
-      <span class="price">¥1,500</span>
-    </div>
+  <div class="row">
+    <span class="label">Chinese</span>
+    <span class="price">¥800</span>
+  </div>
 
-    <div class="item">
-      <span class="name">ジンフィズ</span>
-      <span class="price">¥1,500</span>
-    </div>
-  </section>
+</section>
 
-  <!-- ウォッカ -->
-  <section class="category">
-    <h2>ウォッカ</h2>
+<!-- ====================
+     MENU
+==================== -->
+<section class="card">
+  <h2 class="card-title">Menu</h2>
+  <div class="divider"></div>
 
-    <div class="item">
-      <span class="name">ブラッディメアリー</span>
-      <span class="price">¥1,500</span>
-    </div>
+  <div class="menu-grid">
+    <a href="gin.html" class="menu-btn">GIN</a>
+    <a href="vodka.html" class="menu-btn">VODKA</a>
 
-    <div class="item">
-      <span class="name">モスコミュール</span>
-      <span class="price">¥1,500</span>
-    </div>
-  </section>
+    <a href="rum.html" class="menu-btn">RUM</a>
+    <a href="tequila.html" class="menu-btn">TEQUILA</a>
 
-  <!-- リキュール -->
-  <section class="category">
-    <h2>リキュール</h2>
+    <a href="whisky.html" class="menu-btn">WHISKY</a>
+    <a href="wine.html" class="menu-btn">WINE</a>
 
-    <div class="item">
-      <span class="name">カシスオレンジ</span>
-      <span class="price">¥1,200</span>
-    </div>
+    <a href="liqueur.html" class="menu-btn">LIQUEUR</a>
+    <a href="nonalcohol.html" class="menu-btn">NON ALCOHOL</a>
+  </div>
+</section>
 
-    <div class="item">
-      <span class="name">カンパリソーダ</span>
-      <span class="price">¥1,200</span>
-    </div>
-  </section>
-
-  <footer>
-    <p>※価格は税込です</p>
-  </footer>
+<footer>
+  ※価格は税込です
+</footer>
 
 </body>
 </html>
